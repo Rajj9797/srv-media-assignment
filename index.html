@@ -4,17 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Open+Sans:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="header">
     <nav class="navbar">
-        <div class="logo">
-            <img src="./Assets/main-logo.png" alt="Logo" class="logo-image">
-        </div>
-        <div>
-            <button class="register">Register Now</button>
-        </div>
+        <img src="./Assets/main-logo.png" alt="Logo" class="logo-image">
+        <button class="register-button">Register Now</button>
     </nav>
   </header>
 
@@ -24,7 +23,7 @@
         <div class="intro-description">
             <div class="text-section">
                 <div class="line-one">Discover Gurugram's</div>
-                <div class="line-two">Top 30+ Schools</div>
+                <div class="line-two"><img src="./Assets/Top 30+ Schools.png" alt="top 30+ schools"></div>
                 <div class="line-three">ALL IN ONE PLACE</div>
             </div>
             <div class="place-time-section">
@@ -32,7 +31,6 @@
                     <div class="building">Apparel House,</div>
                     <div class="sector">Sec 44, Gurugram</div>
                 </div>
-                <div class="breaker-line"></div>
                 <div class="schedule-section">
                     <div class="date">2-3 August 2025</div>
                     <div class="time-section">
@@ -47,10 +45,13 @@
             <div class="scroll-arrow">&#8595;</div>
         </div>
         <div class="enquire-section">
-            <input type="parent-name" placeholder="Parent's Name" class="input-field" disabled>
-            <input type="number" placeholder="Phone Number" class="input-field" disabled>
-            <input type="text" placeholder="Which grade are you looking for?" class="input-field" disabled>
-            <button class="enquire-button">Submit</button>
+            <div class="enquire-elements">
+                <p class="enquire-text">Enquire Now</p>
+                <input type="text" placeholder="Parent's Name" class="input-field-name" disabled>
+                <input type="number" placeholder="Phone Number" class="input-field-number" disabled>
+                <input type="text" placeholder="Which grade are you looking for?" class="input-field-description" disabled>
+                <button class="enquire-button">Submit</button>
+            </div>
         </div>
       </div>
     </section>
@@ -67,6 +68,38 @@
 
     <section class="schools-section">
         <div class="schools-section-title">Participating Schools</div>
+        <div class="schools-name">
+            <div class="school-card">
+                <img src="./Assets/school1.jpg" alt="school 1" class="school-image">
+            </div>
+            <div class="school-card">
+                <img src="./Assets/school2.jpg" alt="school 2" class="school-image">
+            </div>
+            <div class="school-card">
+                <img src="./Assets/school3.jpg" alt="school 3" class="school-image">
+            </div>
+            <div class="school-card">
+                <img src="./Assets/school4.png" alt="school 4" class="school-image">
+            </div>
+            <div class="school-card">
+                <img src="./Assets/school5.png" alt="school 5" class="school-image">
+            </div>
+            <div class="school-card">
+                <img src="./Assets/school1.jpg" alt="school 6" class="school-image">
+            </div>
+            <div class="school-card">
+                <img src="./Assets/school2.jpg" alt="school 7" class="school-image">
+            </div>
+            <div class="school-card">
+                <img src="./Assets/school3.jpg" alt="school 8" class="school-image">
+            </div>
+            <div class="school-card">
+                <img src="./Assets/school4.png" alt="school 9" class="school-image">
+            </div>
+            <div class="school-card">
+                <img src="./Assets/school5.png" alt="school 10" class="school-image">
+            </div>
+        </div>
         <div class="schools-name">
             <div class="school-card">
                 <img src="./Assets/school1.jpg" alt="school 1" class="school-image">

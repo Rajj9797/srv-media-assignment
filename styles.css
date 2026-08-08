@@ -1,3 +1,331 @@
+@font-face {
+  font-family: "Museo Sans";
+  src: url("./fonts/MuseoSans500.woff2") format("woff2"),
+       url("./fonts/MuseoSans500.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url("./fonts/MuseoSans700.woff2") format("woff2"),
+       url("./fonts/MuseoSans700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    max-width: 1920px;
+}
+.register-button{
+    width: 205px;
+    height: 60px;
+    position: absolute;
+    top: 19px;
+    left: 1596px;
+}
+
+.logo-image {
+    height: 157px;
+    width: 201px;
+    margin-left: 20px;
+    position: absolute;
+    top: 3px;
+    left: 76px;
+}
+
+.hero{
+    width: 1920px;
+    height: 720px;
+    background: linear-gradient(90deg, #000E38 10%, #3F186A 50%);
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    position: relative;
+}
+
+.intro-description{
+    width: 520px;
+    height: 336px;
+    position: absolute;
+    top: 192px;
+    left: 100px;
+    color: #FFFFFF;
+}
+
+.line-one{
+    font-family: "Museo Sans", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    font-style: regular;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+    background: linear-gradient(90deg, #FFCC81 30%, #E9C79F 70%);
+    -webkit-background-clip: text;
+    color: transparent;}
+
+.line-three{
+    font-family: "Museo Sans", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0%; 
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FFCC81 30%, #E9C79F 70%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.place-time-section{
+    width: 520px;
+    height: 120px;
+    position: absolute;
+    top: 216px;
+    background: linear-gradient(90deg, #FFCC81 30%, #E9C79F 70%);
+    border-radius: 100px;
+    border: 1.33px solid #000;
+}
+
+.address{
+    width: 218.67px;
+    height: 72px;
+    position: absolute;
+    top: 25.33px;
+    left: 32px;
+    border-right: 1.33px solid transparent;
+    border-image: linear-gradient(90deg, #000E38, #3F186A) 1;
+    background: linear-gradient(90deg, #000E38 0%, #3F186A 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.schedule-section{
+    width: 218.67px;
+    height: 72px;
+    position: absolute;
+    top: 25.33px;
+    left: 32px;
+    border-right: 1.33px solid transparent;
+    background: linear-gradient(90deg, #000E38 0%, #3F186A 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.building, .date{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26.67px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: linear-gradient(90deg, #000E38 0%, #3F186A 100%);
+}
+
+.sector, .time-section{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18.67px;
+    line-height: 170%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: linear-gradient(90deg, #000E38 0%, #3F186A 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;   
+}
+
+.day{
+    padding-right: 5px;
+    border-right: 1.33px solid transparent;
+    border-image: linear-gradient(90deg, #000E38, #3F186A) 1;
+}
+
+.schedule-section{
+    width: 208px;
+    height: 72px;
+    position: absolute;
+    top: 25.33px;
+    left: 266.66px;
+}
+
+.enquire-section{
+    width: 414px;
+    height: 435px;
+    position: absolute;
+    top: 109px;
+    left: 1406px;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0%, rgba(6, 21, 50, 0.25) 100%);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 12px;
+}
+
+
+.enquire-elements{
+    width: 366px;
+    height: 351.11px;
+    position: absolute;
+    top: 23.89px;
+    left: 24px;
+    opacity: 1;
+    background: transparent;
+}
+
+
+.enquire-text{
+    width: 195px;
+    height: 38px;
+    font-family: 'Archivo';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #fff;
+    position: absolute;
+    top: -23px;
+}
+
+.input-field-name{
+    width: 366px;
+    height: 50px;
+    position: absolute;
+    top: 63.11px;
+    border-radius: 8px;
+}
+
+.input-field-number{
+    width: 366px;
+    height: 50px;
+    position: absolute;
+    top: 126.11px;
+    border-radius: 8px;
+}
+.input-field-description{
+    width: 366px;
+    height: 100px;
+    position: absolute;
+    top: 190.11px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.enquire-button{
+    width: 210px;
+    height: 60px;
+    position: absolute;
+    top: 330px;
+}
+
+.awards-section{
+    width: max-content;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 250px;
+}
+
+.awards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17.47;
+}
+.award-image{
+    padding: 17.47px;
+    width: max-content;
+    height: 165.05px;
+}
+
+.schools-section{
+    width: 130%;
+        /* margin: 80px 250px; */
+}
+
+.schools-section-title{
+    width: 100%;
+    font-family: 'Archivo';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    background: linear-gradient(90deg, #000E38 0%, #3F186A 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.schools-name{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+.school-card{
+    width: 274px;
+    height: 120px;
+    flex: 0 0 auto;
+    border: 1px solid #E8E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    scroll-snap-align: start;
+}
+.school-image{
+    width: 50%;
+    height: 50%;
+    display: block;
+    object-fit: cover;
+}
+
+.schools-choices-section{
+    min-width: auto;
+}
+
+.choices-section-title{
+    font-family: "Museo Sans", sans-serif;
+    font-weight: 600;
+    font-style: Regular;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    background: linear-gradient(90deg, #000E38 0%, #3F186A 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
 .Appointment-schedule-section{
     background-image: url('./Assets/pre-schedule-background.jpg');
     background-size: cover;
