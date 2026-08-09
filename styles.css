@@ -38,6 +38,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .register-arrow-box{
@@ -48,7 +50,9 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: -30px;
+    left: -13px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .register-now-text{
@@ -284,13 +288,12 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: -47px;
+    left: -54px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
 }
 
-.register-now-text{
+.submit-now-text{
     color: #fff;
 }
 
