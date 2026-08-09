@@ -310,7 +310,40 @@ body {
 }
 
 .schools-choices-section{
-    min-width: auto;
+    width: 1920px;
+}
+
+.school-choices-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    height: 405px;
+    padding: 80px;
+    position: relative;
+
+}
+
+.school-choices-card{
+    height: 320px;
+    border-radius: 24px;
+    /* background: linear-gradient(270deg, rgba(0, 0, 0, 0.35) 20%, rgba(255, 255, 255, 0.08) 100%); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 24px;
+}
+
+.choice-card{
+    width: 150%;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    gap: 50px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.35) 20%, rgba(255, 255, 255, 0.08) 100%);
+    /* background: rgba(0, 0, 0, 0.35); */
+    padding: 20px;
+    /* border-radius: 16px; */
 }
 
 .choices-section-title{
@@ -326,8 +359,249 @@ body {
     color: transparent;
     text-align: center;
 }
+
+.school-card-title{
+    color: #fff;
+    font-family: "Museo Sans", sans-serif;
+    font-weight: 600;
+    font-style: regular;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%; 
+    text-transform: uppercase;
+}
+.school-card-description{
+    color: #fff;
+    padding-top: 20px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.35) 20%, rgba(255, 255, 255, 0.08) 100%);
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+
 .Appointment-schedule-section{
     background-image: url('./Assets/pre-schedule-background.jpg');
     background-size: cover;
     background-position: center;
+    min-height: 725px;
+    width: 1920px;
+    position: relative;
+}
+
+.appointment-description{
+    width: min(641px, 100%);
+    max-width: 641px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+
+.description-one-line, .description-three-line{
+    font-family: 'Museo Sans', Open Sans;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    background: linear-gradient(90deg, #755797 0%, #9B4DF0 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.description-two-line{
+    width: 641px;
+    /* height: 170px; */
+    font-family: 'Museo Sans', Open Sans;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.pre-schedule-button{
+    position: absolute;
+    top: 600px;
+    left: 80px;
+}
+
+.schedule-button{
+    width: 243px;
+    height: 60px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.arrow-box{
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -30px;
+}
+
+.specifications-section{
+    width: 1920px;
+    /* max-width: 100%; */
+    display: block;
+    min-height: 767.3px;
+    background: linear-gradient(0deg, #000E38 10%, #3F186A 50%);
+    padding: 80px 0 80px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    box-sizing: border-box;
+}
+
+.specifications{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.specifications-cards{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    margin: 40px 0 0;
+    padding: 0 20px 12px 20px;
+    box-sizing: border-box;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+.specifications-card{
+    width: min(417px, calc(100vw - 40px));
+    min-width: min(320px, calc(100vw - 40px));
+    height: 380px;
+    flex: 0 0 auto;
+    border: 1px solid #E8E7E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 20px;
+    scroll-snap-align: start;
+    background: linear-gradient(90deg, #DDBFFF 0%, #EDDDFF 100%);
+}
+
+.specifications-title-line{
+    font-family: 'Museo Sans', Open Sans;
+    font-weight: 600;
+    font-style: regular;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    /* margin-top: 80px; */
+    color: #fff;
+}
+
+.specification-title{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    background: linear-gradient(90deg, #000E38 0%, #3F186A 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.specification-description{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: regular;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    background: linear-gradient(to bottom, #000E38 0%, #3F186A 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.footer{
+    width: 1920px;
+    height: 334px;
+    margin-top: 80px;
+}
+
+.footer-details-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    width: 100%;
+    height: 274px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(0deg, #000E38 0%, #3F186A 100%);
+    /* -webkit-background-clip: text;
+    color: transparent; */
+    color: #fff;
+}
+
+.footer-logo-image{
+    width: 141.71px;
+    height: 124px;
+    object-fit: contain;
+}
+
+.office-address, .ahmedabad-office-address, .call-info{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 418px;
+    height: 90px;
+}
+
+.details-line1{
+    font-family: 'Museo Sans', Open Sans;
+    font-weight: 600;
+    font-style: regular;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.details-line2{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.footer-text{
+    margin-top: 20px;
+    text-align: center;
+    background: linear-gradient(0deg, #000E38 0%, #3F186A 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
