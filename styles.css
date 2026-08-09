@@ -35,6 +35,35 @@ body {
     position: absolute;
     top: 19px;
     left: 1596px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.register-arrow-box{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(270deg, #000E38 100%, #3F186A 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -30px;
+}
+
+.register-now-text{
+    font-family: "Open sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: bold;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    left: -10px;
+
+    
 }
 
 .logo-image {
@@ -71,7 +100,6 @@ body {
 
 .line-one{
     font-family: "Museo Sans", sans-serif;
-    font-weight: 600;
     font-size: 48px;
     font-style: regular;
     font-weight: 600;
@@ -604,4 +632,10 @@ body {
     background: linear-gradient(0deg, #000E38 0%, #3F186A 100%);
     -webkit-background-clip: text;
     color: transparent;
+    font-family: 'Museo Sans', Open Sans;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
 }
