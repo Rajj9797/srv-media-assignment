@@ -703,3 +703,335 @@ body {
     line-height: 150%;
     letter-spacing: 0%;
 }
+
+@media (max-width: 1200px) {
+    .navbar,
+    .hero,
+    .schools-choices-section,
+    .Appointment-schedule-section,
+    .specifications-section,
+    .footer {
+        width: 100% ;
+        max-width: 100% ;
+    }
+
+    .navbar {
+        height: auto ;
+        padding: 20px 24px ;
+        flex-wrap: wrap ;
+        gap: 16px ;
+    }
+
+    .register-button {
+        position: relative ;
+        top: auto ;
+        left: auto ;
+    }
+
+    .logo-image {
+        position: relative ;
+        top: auto ;
+        left: auto ;
+        height: auto ;
+        max-height: 120px ;
+        width: auto ;
+        margin: 0 ;
+    }
+
+    .hero {
+        height: auto ;
+        min-height: auto ;
+    }
+
+    .hero-content {
+        height: auto ;
+        padding: 40px 24px ;
+        flex-wrap: wrap ;
+        justify-content: center ;
+        align-items: flex-start ;
+        gap: 24px ;
+    }
+
+    .intro-description,
+    .scroller,
+    .enquire-section {
+        position: relative ;
+        top: auto ;
+        left: auto ;
+        width: min(520px, 100%) ;
+        height: auto ;
+    }
+
+    .place-time-section {
+        position: relative ;
+        top: auto ;
+        left: auto ;
+        width: min(520px, 100%) ;
+        height: auto ;
+        padding: 20px ;
+    }
+
+    .address,
+    .schedule-section {
+        position: relative ;
+        top: auto ;
+        left: auto ;
+        width: 100% ;
+        height: auto ;
+        margin-bottom: 12px ;
+    }
+
+    .schedule-section {
+        left: auto ;
+        width: 100% ;
+        margin-bottom: 0 ;
+    }
+
+    .enquire-elements {
+        position: relative ;
+        top: auto ;
+        left: auto ;
+        width: 100% ;
+        height: auto ;
+    }
+
+    .enquire-text,
+    .input-field-name,
+    .input-field-number,
+    .input-field-description,
+    .enquire-button {
+        position: static ;
+        top: auto ;
+        left: auto ;
+        width: 100% ;
+        height: auto ;
+    }
+
+    .enquire-button {
+        max-width: 100% ;
+    }
+
+    .awards-section {
+        width: 100% ;
+        max-width: 100% ;
+        margin: 48px auto ;
+        padding: 0 24px ;
+    }
+
+    .awards {
+        flex-wrap: wrap ;
+        gap: 12px ;
+    }
+
+    .award-image {
+        height: 130px ;
+        width: auto ;
+        padding: 10px ;
+    }
+
+    .schools-section,
+    .schools-name,
+    .school-choices-cards,
+    .schools-choices-section {
+        width: 100% ;
+        max-width: 100% ;
+    }
+
+    .schools-name {
+        padding: 0 20px ;
+        margin: 24px auto ;
+    }
+
+    .school-card {
+        width: 240px ;
+        height: auto ;
+        min-height: 120px ;
+    }
+
+    .school-choices-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) ;
+        height: auto ;
+        padding: 40px 24px ;
+    }
+
+    .school-choices-card {
+        height: 320px ;
+    }
+
+    .choice-card {
+        width: 100% ;
+        top: auto ;
+        left: auto ;
+    }
+
+    .Appointment-schedule-section {
+        width: 100% ;
+        min-height: auto ;
+        padding: 60px 24px ;
+    }
+
+    .appointment-description,
+    .pre-schedule-button {
+        position: relative ;
+        top: auto ;
+        left: auto ;
+        width: 100% ;
+        max-width: 100% ;
+    }
+
+    .description-two-line {
+        width: 100% ;
+    }
+
+    .specifications-section {
+        width: 100% ;
+        max-width: 100% ;
+        padding: 60px 20px ;
+    }
+
+    .specifications-cards {
+        padding: 0 0 12px ;
+        margin: 24px 0 0 ;
+    }
+
+    .specifications-card {
+        width: min(417px, calc(100vw - 40px)) ;
+        min-width: min(320px, calc(100vw - 40px)) ;
+        height: 380px ;
+    }
+
+    .footer {
+        width: 100% ;
+        max-width: 100% ;
+        height: auto ;
+    }
+
+    .footer-content {
+        flex-wrap: wrap ;
+        height: auto ;
+        padding: 24px 20px ;
+        gap: 20px ;
+    }
+
+    .office-address,
+    .ahmedabad-office-address,
+    .call-info {
+        width: min(418px, 100%) ;
+        height: auto ;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-scroller {
+        height: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .scroller-track {
+        flex-direction: row;
+        width: max-content;
+        animation: scrollHorizontal 16s linear infinite;
+    }
+
+    .scroller-track img {
+        width: 140px;
+        height: 220px;
+        flex-shrink: 0;
+    }
+}
+
+@keyframes scrollHorizontal {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 20px 16px ;
+    }
+
+    .register-button {
+        width: 100% ;
+        max-width: 205px ;
+    }
+
+    .hero-content {
+        padding: 24px 16px ;
+    }
+
+    .place-time-section {
+        padding: 16px ;
+    }
+
+    .address,
+    .schedule-section {
+        margin-bottom: 12px ;
+    }
+
+    .scroller {
+        width: 100% ;
+        justify-content: center ;
+    }
+
+    .enquire-section {
+        width: 100% ;
+    }
+
+    .awards {
+        gap: 8px ;
+    }
+
+    .award-image {
+        height: 100px ;
+        padding: 8px ;
+    }
+
+    .schools-name {
+        padding: 0 16px ;
+    }
+
+    .school-choices-cards {
+        grid-template-columns: 1fr ;
+        padding: 24px 16px ;
+    }
+
+    .school-choices-card {
+        height: 280px ;
+    }
+
+    .Appointment-schedule-section {
+        padding: 40px 16px ;
+    }
+
+    .specifications-section {
+        padding: 40px 16px ;
+    }
+
+    .specifications-cards {
+        padding: 0 0 12px ;
+    }
+
+    .specifications-card {
+        width: min(320px, calc(100vw - 40px)) ;
+        min-width: min(320px, calc(100vw - 40px)) ;
+        height: auto ;
+        min-height: 320px ;
+    }
+
+    .footer-content {
+        flex-direction: column ;
+        align-items: flex-start ;
+    }
+
+    .office-address,
+    .ahmedabad-office-address,
+    .call-info {
+        width: 100% ;
+    }
+}
+
